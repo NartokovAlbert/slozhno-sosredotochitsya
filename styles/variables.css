@@ -16,6 +16,8 @@
     --background-image: url(../images/cover-image-light.png);
     --article-color: var(--text-color);
     --section-title-color: var(--text-color);
+    --clamp-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    --clamp-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 }
 
@@ -36,5 +38,7 @@
     --background-image: url(../images/cover-image-dark.png);
     --article-color: var(--background-color);
     --section-title-color: var(--text-shadow);
+    --clamp-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    --clamp-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 }
