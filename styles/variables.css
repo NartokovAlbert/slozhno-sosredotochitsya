@@ -1,8 +1,6 @@
 @media (prefers-color-scheme: light) {
-  
   :root {
-
-    --font-family: 'IBM Plex mono';
+    --font-family: "IBM Plex mono";
     --text-color: #353430;
     --highlight-color: #ffc2e6;
     --text-shadow: #ff0070;
@@ -22,9 +20,8 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  
   :root {
-    --font-family: 'IBM Plex mono';
+    --font-family: "IBM Plex mono";
     --text-color: #f1b2ce;
     --highlight-color: #db00ff;
     --text-shadow: #ff0070;
