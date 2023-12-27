@@ -20,14 +20,14 @@
 
 @media (width < 1024px) and (width >= 768px) {
   .header__container {
-    padding: 150px 0 183px;
-    gap: 133px;
+    padding: 150px 0 180px;
+    gap: 130px;
   }
 }
 
 @media (width < 768px) and (width >= 375px) {
   .header__container {
-    padding: 70px 0 74px;
+    padding: 70px 0 75px;
     gap: 57px;
   }
 }
