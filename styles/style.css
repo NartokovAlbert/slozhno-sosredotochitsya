@@ -395,37 +395,37 @@
 /*Footer*/
 
 .footer {
-  padding: 280px 20px;
+  padding: 282px 20px;
   position: relative;
   text-align: center;
 }
 
 .footer__title {
-  font-size: var(--clamp-desktop);
+  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   font-weight: 700;
-  color: var(--highlight-color);
-  text-shadow: 2px 2px var(--text-shadow);
+  color: var(--title-color);
+  text-shadow: 2px 2px 0px var(--title-shadow);
 }
 
-@media (width <= 1024px) and (width >= 375px) {
+@media (width < 1024px) and (width >= 375px) {
   .footer__title {
-    text-shadow: 2px 2px var(--text-decor);
+    text-shadow: 2px 2px 0px var(--title-decor);
   }
 }
 
-@media (width <= 768px) and (width >= 375px) {
+@media (width < 768px) and (width >= 375px) {
   .footer__title {
-    font-size: var(--clamp-mobile);
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 }
 
-@media (width <= 1024px) and (width >= 768px) {
+@media (width < 1024px) and (width >= 768px) {
   .footer {
     padding: 434px 20px;
   }
 }
 
-@media (width <= 768px) and (width >= 375px) {
+@media (width < 768px) and (width >= 375px) {
   .footer {
     margin-top: 40px;
     padding: 262px 10px;
