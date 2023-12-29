@@ -1,5 +1,4 @@
 .page {
-  background-attachment: fixed;
   --transition-duration: 0.3s;
   background: var(--background-image) no-repeat top center,
     var(--background-color);

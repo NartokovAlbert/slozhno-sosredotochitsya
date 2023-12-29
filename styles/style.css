@@ -151,7 +151,7 @@
 }
 
 .header__subtitle {
-  color: var(--background-color);
+  color: var(--article-color);
   align-self: flex-end;
   font-weight: normal;
   width: 50%;
@@ -200,7 +200,7 @@
 }
 
 .dark-title {
-  color: var(--background-color);
+  color: var(--article-color);
 }
 
 @media (width <= 1024px) and (width >= 768px) {
@@ -217,7 +217,7 @@
 .section__article-list-title {
   font-size: 18px;
   font-weight: 700;
-  color: var(--background-color);
+  color: var(--article-color);
 }
 
 .section__article-item {
@@ -229,7 +229,7 @@
 .section__article-title {
   font-size: 18px;
   font-weight: 700;
-  color: var(--background-color);
+  color: var(--article-color);
 }
 
 .section__article-title_regular {
@@ -395,40 +395,29 @@
 /*Footer*/
 
 .footer {
-  padding: 282px 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 768px;
   position: relative;
-  text-align: center;
-  height: 100vh;
 }
 
 .footer__title {
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   font-weight: 700;
-  color: var(--title-color);
-  text-shadow: 2px 2px 0px var(--title-shadow);
+  color: var(--highlight-color);
+  text-shadow: 2px 2px 0px var(--text-shadow);
 }
 
-@media (width < 1024px) and (width >= 375px) {
-  .footer__title {
-    text-shadow: 2px 2px 0px var(--title-decor);
-  }
-}
-
-@media (width < 768px) and (width >= 375px) {
-  .footer__title {
-    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  }
-}
-
-@media (width < 1024px) and (width >= 768px) {
+@media screen and (max-width: 768px) {
   .footer {
-    padding: 434px 20px;
+    height: 1024px;
   }
 }
 
-@media (width < 768px) and (width >= 375px) {
+@media screen and (max-width: 668px) {
   .footer {
-    margin-top: 40px;
-    padding: 262px 10px;
+    height: 667px;
   }
 }
