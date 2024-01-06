@@ -1,41 +1,18 @@
-@media (prefers-color-scheme: light) {
-  :root {
-    --font-family: "IBM Plex mono";
-    --text-color: #353430;
-    --highlight-color: #ffc2e6;
-    --text-shadow: #ff0070;
-    --text-decor: #ff8dcb;
-    --hover-color: 1px solid rgba(50 49 45 / 0.4);
-    --background-color: #fff1f7;
-    --border-color: var(--text-shadow);
-    --corners-color: var(--text-color);
-    --link-shadow: var(--highlight-color);
-    --rec-color: var(--background-color);
-    --background-image: url(../images/cover-image-light.png);
-    --article-color: var(--text-color);
-    --section-title-color: var(--text-color);
-    --clamp-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-    --clamp-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --font-family: "IBM Plex mono";
-    --text-color: #f1b2ce;
-    --highlight-color: #db00ff;
-    --text-shadow: #ff0070;
-    --hover-color: 1px solid rgba(255 0 112 / 0.4);
-    --background-color: #000028;
-    --border-color: var(--text-color);
-    --corners-color: var(--text-shadow);
-    --text-decor: var(--text-shadow);
-    --link-shadow: var(--text-shadow);
-    --rec-color: var(--text-shadow);
-    --background-image: url(../images/cover-image-dark.png);
-    --article-color: var(--background-color);
-    --section-title-color: var(--text-shadow);
-    --clamp-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-    --clamp-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  }
+:root {
+  --background-color-light: #fff1f7;
+  --text__color-black: #f1b2ce;
+  --titile__color-light: #ffc2e6;
+  --highlighter__color-light: #ff8dcb;
+  --title__color-dark: #db00ff;
+  --text-shadow: #ff0070;
+  --titile__color-black: #000028;
+  --text__color-light: #353430;
+  --text-color: var(--text__color-black, #f1b2ce);
+  --brand-color: var(--title__color-dark, #db00ff);
+  --highlighter__color: var(--text-shadow, #ff0070);
+  --highlight-color: var(--titile__color-black, #000028);
+  --font-family: "IBM Plex mono";
+  --background-image: url("../images/cover-image.png");
+  --background-color: var(--titile__color-black, #000028);
+  --dark-rec-visibility: visible;
 }
