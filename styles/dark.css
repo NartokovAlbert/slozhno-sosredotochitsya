@@ -2,7 +2,7 @@
   --text-color: var(--text__color-black, #f1b2ce);
   --brand-color: var(--title__color-dark, #db00ff);
   --secondary-color: var(--text-shadow, #ff0070);
-  --highlighter__color: var(--text-shadow, #ff0070);
+  --marker__color: var(--text-shadow, #ff0070);
   --highlight-color: var(--titile__color-black, #000028);
   --background-color: var(--titile__color-black, #000028);
   --background-image: url("../images/cover-image-dark.png");
@@ -14,7 +14,7 @@
     --text-color: var(--text__color-black, #f1b2ce);
     --brand-color: var(--title__color-dark, #db00ff);
     --secondary-color: var(--text-shadow, #ff0070);
-    --highlighter__color: var(--text-shadow, #ff0070);
+    --marker__color: var(--text-shadow, #ff0070);
     --highlight-color: var(--titile__color-black, #000028);
     --background-color: var(--titile__color-black, #000028);
     --background-image: url("../images/cover-image-dark.png");

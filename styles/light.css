@@ -1,6 +1,6 @@
 .page.theme_light {
   --text-color: var(--text__color-light, #353430);
-  --highlighter__color: var(--highlighter__color-light, #ff8dcb);
+  --marker__color: var(--marker__color-light, #ff8dcb);
   --brand-color: var(--titile__color-light, #ffc2e6);
   --highlight-color: var(--text__color-light, #353430);
   --secondary-color: var(--text__color-light, #353430);
@@ -12,7 +12,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     --text-color: var(--text__color-light, #353430);
-    --highlighter__color: var(--highlighter__color-light, #ff8dcb);
+    --marker__color: var(--marker__color-light, #ff8dcb);
     --brand-color: var(--titile__color-light, #ffc2e6);
     --highlight-color: var(--text__color-light, #353430);
     --secondary-color: var(--text__color-light, #353430);
