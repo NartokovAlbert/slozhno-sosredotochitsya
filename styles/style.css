@@ -136,7 +136,7 @@
   align-items: start;
 }
 
-.header__theme-menu {
+.header__ {
   justify-self: end;
   margin-block: 65px;
 }
@@ -166,6 +166,12 @@
 .header__theme-menu-button:focus {
   outline: 0;
 }
+
+.header__theme-menu-button:hover {
+  border: 1px solid rgba(255, 0, 112, 0.40);
+}
+
+
 
 .header__theme-menu-button:focus-visible {
   border-block-end-color: currentColor;
