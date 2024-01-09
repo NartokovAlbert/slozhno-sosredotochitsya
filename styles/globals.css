@@ -44,10 +44,9 @@ img {
   block-size: auto;
 }
 
-
 .page {
   color: var(--text-color, #f1b2ce);
-  font-family: var(--font-family, "IBM Plex mono",Arial, sans-serif);
+  font-family: var(--font-family, "IBM Plex mono", Arial, sans-serif);
   font-size: 18px;
   line-height: 23.4px;
   background-color: var(--background-color, #000028);
@@ -60,4 +59,3 @@ img {
 .shadow-decor {
   text-shadow: 2px 2px 0 var(--marker__color, #ff0070);
 }
-

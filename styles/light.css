@@ -7,6 +7,7 @@
   --background-color: var(--background-color-light, #fff1f7);
   --background-image: url("../images/cover-image-light.png");
   --dark-rec-visibility: hidden;
+  --hover-color: var(--hover__color-light);
 }
 
 @media (prefers-color-scheme: light) {
@@ -19,5 +20,6 @@
     --background-color: var(--background-color-light, #fff1f7);
     --background-image: url("../images/cover-image-light.png");
     --dark-rec-visibility: hidden;
+    --hover-color: var(--hover__color-light);
   }
 }

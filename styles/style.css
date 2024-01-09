@@ -130,13 +130,11 @@
   inline-size: 100%;
 }
 
-
-
 .header {
   align-items: start;
 }
 
-.header__ {
+.header__theme-menu {
   justify-self: end;
   margin-block: 65px;
 }
@@ -168,10 +166,8 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid rgba(255, 0, 112, 0.40);
+  border-color: var(--hover-color-black);
 }
-
-
 
 .header__theme-menu-button:focus-visible {
   border-block-end-color: currentColor;

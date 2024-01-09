@@ -15,4 +15,6 @@
   --background-image: url("../images/cover-image.png");
   --background-color: var(--titile__color-black, #000028);
   --dark-rec-visibility: visible;
+  --hover__color-light: rgba(255, 0, 112, 0.4);
+  --hover__color-black: rgba(50, 49, 45, 0.4);
 }
